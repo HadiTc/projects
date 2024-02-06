@@ -1,0 +1,136 @@
+.navbar {
+  background-color: #000; 
+  border-radius: 0;
+  border: none;
+  margin-bottom: 0;
+}
+
+.navbar-brand img {
+  filter: grayscale(100%) invert(100%); 
+  width: auto;
+}
+
+.navbar-nav > li > a {
+  color: #fff; 
+  font-weight: bold;
+}
+
+.navbar-nav > li > a:hover,
+.navbar-nav > li.active > a {
+  color: #007bff;
+}
+
+.navbar-right .dropdown-menu {
+  background-color: #000; 
+}
+
+.navbar-right .dropdown-menu a {
+  color: #fff;
+}
+
+.navbar-right .dropdown-menu a:hover {
+  color: #007bff;
+  background-color: transparent;
+}
+
+.navbar-right .dropdown-menu .divider {
+  background-color: #007bff;
+}
+
+.navbar-right .dropdown-menu .divider:hover {
+  background-color: #007bff;
+}
+
+
+@media (max-width: 767px) {
+  .navbar-header {
+    float: none;
+  }
+  .navbar-left,
+  .navbar-right {
+    float: none !important;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-collapse.collapse {
+    display: none !important;
+  }
+  .navbar-nav {
+    float: none !important;
+    margin-top: 7.5px;
+  }
+  .navbar-nav > li {
+    float: none;
+  }
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .collapse.in {
+    display: block !important;
+  }
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+
+  background-image: url("images/carousel1.jpg");
+
+  
+  height: 90%;
+
+
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  text-align: left;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.active-cyan-3 input[type="text"] {
+  border: 1px solid #4dd0e1;
+  box-shadow: 0 0 0 1px #4dd0e1;
+}
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+form {
+  width: 50%;
+}
+input.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+
